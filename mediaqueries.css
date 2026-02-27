@@ -112,4 +112,10 @@
     .text-container {
         text-align: justify;
     }
+
+    .video-container{
+        width: auto;
+        height: auto;
+        justify-content: center;
+    }
 }

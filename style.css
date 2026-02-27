@@ -276,6 +276,19 @@ section {
     gap: 1rem;
 }
 
+.close-button {
+    float: right;
+    font-size: 3rem;
+    font-weight: 300;
+    width: 1rem;
+    height: 1rem;
+    color: rgb(0, 0, 0);
+}
+
+.close-button:hover {
+    cursor: pointer;
+}
+
 /* ABOUT SECTION */
 
 #about {
@@ -394,6 +407,20 @@ article .icon {
 .project-btn {
     color: black;
     border-color: rgb(163, 163, 163);
+}
+
+.popup {
+    visibility: hidden;
+    padding: 1.5rem;
+}
+
+.open-popup {
+    visibility: visible;
+}
+
+.video-container {
+    height: 520;
+    width: 600;
 }
 
 

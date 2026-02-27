@@ -211,6 +211,12 @@
                     </div>
                     <h2 class="experience-sub-title project-title">Printer Partner</h2>
                     <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="openPopup()">
+                            Learn More
+                        </button>
+                    </div>
+                    <!--
+                    <div class="btn-container">
                         <button class="btn btn-color-2 project-btn"
                             onclick="location.href='https://github.com/trruiz03/PrinterPARtner'">
                             Github
@@ -218,8 +224,9 @@
                         <button class="btn btn-color-2 project-btn"
                             onclick="location.href='https://drive.google.com/file/d/1r4Ab9iQt7kE92eDDhcwdiBoryYHFUnnv/view?usp=sharing'">
                             Video Demo
-                        </button>
+                        </button>  
                     </div>
+                -->
                 </div>
                 <div class="details-container color-container">
                     <div class="article-container">
@@ -227,17 +234,30 @@
                     </div>
                     <h2 class="experience-sub-title project-title">Lost Memories</h2>
                     <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="openPopup()">
+                            Learn More
+                        </button>
+                    </div>
+                    <!--
+                    <div class="btn-container">
                         <button class="btn btn-color-2 project-btn"
                             onclick="location.href='https://github.com/trruiz03/DemoLevel'">
                             Github
                         </button>
                     </div>
+                -->
                 </div>
                 <div class="details-container color-container">
                     <div class="article-container">
                         <img src="./Assets/getMilky.png" alt="Project 3" class="project-img" />
                     </div>
                     <h2 class="experience-sub-title project-title">Get Milky</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="openPopup()">
+                            Learn More
+                        </button>
+                    </div>
+                    <!--
                     <div class="btn-container">
                         <button class="btn btn-color-2 project-btn"
                             onclick="location.href='https://github.com/trruiz03/Unity-Cow-Game'">
@@ -248,10 +268,87 @@
                             Video Demo
                         </button>
                     </div>
+                -->
                 </div>
             </div>
+            <!--POP UP FOR Get Milky-->
+            <div class="details-container color-container popup" id="popUp">
+                <span onclick="closePopup()" class="close-button">&times;</span>
+                <h2 class="experience-sub-title project-title">Get Milky</h2>
+                <video height="520" width="600" controls autoplay>
+                    <source src="Assets\getMilky_video.mp4" type="video/mp4">
+                </video>
+                <div class="text-container">
+                    <p>In Printer Partner we were tasked with creating an accesible app for students to utizlie on
+                        campus.
+                        Our group focused on the different printers found and created a
+                        step by step tutorial utilizing reality composer to creat an AR experience on IOS devices.
+                        For this project I was in charge or creating the one-handed controller using an Arduino Uno
+                        board
+                        which used touch sensors sensors that would be read as an HID keyboard.
+                    </p>
+                </div>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://github.com/trruiz03/Unity-Cow-Game'">
+                        Github
+                    </button>
+                </div>
+            </div>
+
+            <!--POP UP FOR PRINTER PARTNER-->
+            <div class="details-container color-container popup" id="popUp">
+                <span onclick="closePopup()" class="close-button">&times;</span>
+                <h2 class="experience-sub-title project-title">Get Milky</h2>
+                <video height="520" width="600" controls autoplay>
+                    <source src="Assets\getMilky_video.mp4" type="video/mp4">
+                </video>
+                <div class="text-container">
+                    <p>In Printer Partner we were tasked with creating an accesible app for students to utizlie on
+                        campus.
+                        Our group focused on the different printers found and created a
+                        step by step tutorial utilizing reality composer to creat an AR experience on IOS devices.
+                        For this project I was in charge or creating the one-handed controller using an Arduino Uno
+                        board
+                        which used touch sensors sensors that would be read as an HID keyboard.
+                    </p>
+                </div>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://github.com/trruiz03/Unity-Cow-Game'">
+                        Github
+                    </button>
+                </div>
+            </div>
+
+            <!--POP UP FOR PRINTER PARTNER-->
+            <div class="details-container color-container popup" id="popUp">
+                <span onclick="closePopup()" class="close-button">&times;</span>
+                <h2 class="experience-sub-title project-title">Get Milky</h2>
+                <video class="video-container" height="500" width="420" controls autoplay >
+                    <source src="Assets\getMilky_video.mp4" type="video/mp4">
+                </video>
+                <div class="text-container">
+                    <p>In Printer Partner we were tasked with creating an accesible app for students to utizlie on
+                        campus.
+                        Our group focused on the different printers found and created a
+                        step by step tutorial utilizing reality composer to creat an AR experience on IOS devices.
+                        For this project I was in charge or creating the one-handed controller using an Arduino Uno
+                        board
+                        which used touch sensors sensors that would be read as an HID keyboard.
+                    </p>
+                </div>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://github.com/trruiz03/Unity-Cow-Game'">
+                        Github
+                    </button>
+                </div>
+            </div>
+
         </div>
-        <img src="./Assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+
+        <img src="./Assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
     </section>
 
     <section id="contact">
@@ -273,11 +370,11 @@
         <nav>
             <div cass="nav-links-container">
                 <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
             </div>
         </nav>
         <p>Copyright &#169; 2025 Thomas Ruiz. All Rights Reserved</p>
